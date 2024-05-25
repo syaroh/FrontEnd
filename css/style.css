@@ -11,6 +11,10 @@ body {
   color: white;
 }
 
+.lambang {
+  width: 200px;
+}
+
 nav li {
   display: inline;
   list-style-type: none;
@@ -23,7 +27,7 @@ nav {
 }
 .lambang-kab {
   width: 100%;
-  max-height: 300px;
+  max-height: 400px;
   object-fit: cover;
   object-position: center;
 }
@@ -135,9 +139,13 @@ p {
   font-family: sans-serif;
 }
 
+.kampus {
+  font-size: 20px;
+}
+
 p.fancy {
   font-size: medium;
-  margin-left: auto;
+  margin-left: 15px;
 }
 
 .tabel-pmk {
@@ -145,7 +153,6 @@ p.fancy {
   border: 2px solid deeppink;
   border-radius: 3px;
   margin-left: auto;
-  margin-right: auto;
 }
 
 footer {
@@ -193,7 +200,9 @@ blockquote::after {
   font-weight: bold;
 }
 
-p::first-letter {
+/* mengatur agar huruf pertama kapital */
+
+/* p::first-letter {
   font-size: 25px;
   font-weight: bold;
-}
+} */
