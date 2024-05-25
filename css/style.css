@@ -1,0 +1,199 @@
+body {
+  background-color: rgb(255, 235, 210);
+  font-family: sans-serif;
+}
+
+.jumbotron {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #00c8eb;
+  text-align: center;
+  color: white;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #00a2c6;
+  padding: 5px;
+}
+.lambang-kab {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: #11c5c6;
+}
+
+/* implementasi paragraf dari div class box */
+p.box {
+  height: 75%;
+  width: 75%;
+  background-color: #fbdd1c;
+}
+
+.deep {
+  max-width: 800px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: deeppink;
+}
+
+p.deep {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.lightgreen {
+  height: 200px;
+  width: 200px;
+  background-color: lightgreen;
+  border: 10px solid cornflowerblue;
+  padding: 20px;
+  overflow: auto;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.darkblue {
+  width: 50%;
+  border: 4px solid darkblue;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.box-center {
+  margin: 0 auto;
+}
+
+main > #special {
+  background-color: rgb(118, 226, 237);
+  padding: 3px;
+}
+
+div > p {
+  color: rgb(41, 122, 95);
+}
+
+div h5 {
+  background-color: aliceblue;
+}
+
+/* rule akan diterapkan pada elemen paragraf yang berada tepat setelah elemen img */
+img + p {
+  color: chocolate;
+}
+
+h1,
+p[lang^="en"] {
+  font-style: italic;
+  color: black;
+}
+
+h1 {
+  color: rgb(13, 102, 93);
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  color: rgb(13, 102, 93);
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(13, 102, 93);
+}
+
+/* type selector */
+p {
+  font-size: small;
+  font-family: sans-serif;
+}
+
+p.fancy {
+  font-size: medium;
+  margin-left: auto;
+}
+
+.tabel-pmk {
+  padding: 5px;
+  border: 2px solid deeppink;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  font-size: 14px;
+  padding: 5px;
+  background-color: #00c8eb;
+  color: white;
+}
+
+/* .intro {
+  font-size: small;
+  font-family: sans-serif;
+  color: rgb(96, 138, 12);
+} */
+
+.contact {
+  color: brown;
+}
+/* 
+rule yang diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+a:link {
+  color: red;
+}
+
+/* rule yang diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+a:visited {
+  color: white;
+}
+
+/* rule yang diterapkan pada sebuah tautan ketika diarahkan dengan kursor*/
+a:hover {
+  font-weight: bold;
+}
+
+/* rule yang diterapkan pada sebuah tautan ketika ditekan*/
+a:active {
+  color: blueviolet;
+}
+
+blockquote::before,
+blockquote::after {
+  content: '"';
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: 25px;
+  font-weight: bold;
+}
